@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let string=prompt("nhập chuỗi: ");
+   // let str = string.split("[ ,.]");
+   // let count= str.length;
+    let count =1;
+    for(let i=0;i< string.length;i++){
+       if((string[i]==" " ) ||(string[i]==",")|| (string[i]==".") ||(string[i]=="/n")||(string[i]=="/t")){
+           count++;
+     }
+      /*    if((string[0]==" " ) ||(string[0]==",")|| (string[0]==".") ||(string[0]=="/n")||(string[0]=="/t")){
+            count--;
+        }
+         if((string[string.length -1]==" " ) ||(string[string.length-1]==",")|| (string[string.length-1]==".") ||(string[string.length-1]=="/n")||(string[length-1]=="/t")){
+            count--;
+        } */
+   }
+     document.write(count);
+</script>
+</body>
+</html>

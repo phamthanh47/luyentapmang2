@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr1= prompt("nhập chuỗi 1: ");
+    let arr2=prompt("nhập chuỗi 2: ");
+    if(arr1.length == arr2.length) {
+        for (let i = 0; i < arr1.length; i++) {
+            if (arr1[i] == arr2[i]) {
+                document.write("2 dãy bằng nhau ");
+                break;
+            }
+            else
+                document.write(" 2 dãy không bằng nhau");
+                break;
+        }
+    }
+    else
+        document.write("2 dãy không bằng nhau ");
+</script>
+</body>
+</html>
